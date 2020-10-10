@@ -1,6 +1,6 @@
 # Employee-Directory
 
-A React web application to create and manage an employee directory
+A React web application to view a directory of employee information
 
 
 
