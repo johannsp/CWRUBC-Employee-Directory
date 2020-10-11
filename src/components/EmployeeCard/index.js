@@ -10,16 +10,20 @@ function EmployeeCard(props) {
       <div className="content">
         <ul>
           <li>
-            <strong>Name:</strong> {props.name}
+            <strong>Name:</strong> {props.name} &nbsp;&nbsp;
+            {props.gender}
           </li>
           <li>
             <strong>Email:</strong> {props.email}
           </li>
           <li>
-            <strong>Registered:</strong> {props.registered}
+            <strong>Telephone:</strong> {props.phone}
           </li>
           <li>
-            <strong>Gender:</strong> {props.gender}
+            <strong>Cell/mobile:</strong> {props.cell}
+          </li>
+          <li>
+            <strong>Registered:</strong> {props.registered}
           </li>
         </ul>
       </div>
