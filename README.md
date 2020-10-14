@@ -2,7 +2,7 @@
 
 A React web application to view a directory of employee information
 
-
+[![Employee-Directory-React-Web-App-preview.png](https://i.postimg.cc/tJzYTV8Z/Employee-Directory-React-Web-App-preview.png)](https://postimg.cc/D482pmvn)
 
 ## Table of Contents
 - [Installation](https://github.com/johannsp/CWRUBC-Employee-Directory#Installation) 
