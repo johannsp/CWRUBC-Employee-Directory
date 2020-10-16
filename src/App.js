@@ -30,6 +30,11 @@ class App extends Component {
       .catch(err => console.log(err));
   };
 
+  formatDate = (d) => {
+    const retVal = d.replace(/(\d\d\d\d)-(\d\d)-(\d\d).*/,'$2-$3-$1');
+    return retVal;
+  }
+
   handleInputChange = event => {
     const value = event.target.value;
     const name = event.target.name;
@@ -78,7 +83,7 @@ class App extends Component {
             phone={employee.phone}
             cell={employee.cell}
             image={employee.picture.medium}
-            registered={employee.registered.date}
+            registered={this.formatDate(employee.registered.date)}
           />
         ))}
       </Wrapper>
