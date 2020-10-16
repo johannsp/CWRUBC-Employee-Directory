@@ -2,6 +2,9 @@
 
 A React web application to view a directory of employee information
 
+GitHub Pages (gh-pages) link:
+https://johannsp.github.io/CWRUBC-Employee-Directory/
+
 [![Employee-Directory-React-Web-App-preview.png](https://i.postimg.cc/tJzYTV8Z/Employee-Directory-React-Web-App-preview.png)](https://postimg.cc/D482pmvn)
 
 ## Table of Contents
